@@ -104,6 +104,8 @@ class _LoginPageState extends State<LoginPage> {
           onPressed: (){},
           child: Text('Iniciar Secion', style: TextStyle(color: Colors.white),),
           color: utils.Colors.colorRed,
+          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8))
+
       ),
     );
   }
